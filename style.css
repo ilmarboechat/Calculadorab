@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img_1.jpg);
+}
+
+input {
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25%;
+}
+
+
+.fundo{
+    background-image: linear-gradient(65deg, rgb(20, 20, 20), crimson);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    width: 30%;
+    height: 80vh;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.num{
+    width: 64px;
+    height: 67px;
+    }
+
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.main{
+    display: inline-block;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+.maincolor{
+    background-color: black;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.sum{
+    background-color: #74da44;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.sub{
+    background-color: #c22424;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.mul{
+    background-color: #2c68da;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(160, 194, 165), 0 0 5px rgb(53, 192, 83);
+}
+
+.igu{
+    background-color: #371380;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(67, 163, 107), 0 0 5px rgb(162, 168, 71);
+}
+
+.div{
+    background-color: #a5641a;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
